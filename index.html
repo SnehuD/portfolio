@@ -933,15 +933,20 @@
                     <div class="form-header">
                         Message Me
                     </div>
-                    <form id="myForm" action="#">
+                    <form id="myForm" action="https://pear-frightened-dove.cyclic.app" method="get">
                         <div class="input-line">
-                            <input id="name" type="text" placeholder="Name" class="input-name">
-                            <input id="email" type="email" placeholder="Email" class="input-name">
+                            <input id="name" name="name" type="text" placeholder="Name" class="input-name">
+                            <input id="email" name="email" type="email" placeholder="Email" class="input-name">
                         </div>
-                        <input type="text" id="subject" placeholder="subject" class="input-subject">
-                        <textarea id="body" class="input-textarea" placeholder="message"></textarea>
-                        <button type="button" id="submit" value="send">Submit</button>
+                        <input type="text" name="subject" id="subject" placeholder="subject" class="input-subject">
+                        <input type="hidden" name="owneremail" value="snehaldahake19@gmail.com" />
+                        <textarea id="body" name="body" class="input-textarea" placeholder="message"></textarea>
+                        <input type="hidden" name="url" id="url" />
+                        <button type="submit" id="submit" value="send">Submit</button>
                     </form>
+                    <script>
+                        document.getElementById('url').value = window.location.href;
+                    </script>
 
                 </div>
                 <!--Contact form-->
