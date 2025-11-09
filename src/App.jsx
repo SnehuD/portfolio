@@ -20,7 +20,7 @@ function App() {
       {/* Footer */}
       <footer className="glass py-8 text-center">
         <p className="text-gray-400">
-          © 2025 Snehal Dahake. Built with React, Vite & Tailwind CSS
+          © 2025 Snehal Dahake.
         </p>
       </footer>
     </div>
