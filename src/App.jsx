@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           © 2025 Snehal Dahake.
         </p>
       </footer>
+      <ScrollToTop />
     </div>
   );
 }
